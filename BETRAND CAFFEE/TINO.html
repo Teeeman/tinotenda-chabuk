@@ -1,0 +1,116 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF"-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>BETRAND | CAFFEE</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-bar">
+                <h1 class="title">BETRAND<span> CAFFEE</span></h1>
+                <p>CLASSIC COFFEE</p>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="MENU.html">MENU</a></li>
+                    </ul>
+            </div>
+
+            <div class="home">
+                <h1 class="title-1">The best<span>Coffee will</span>always make<br>make your day worth.</h1>
+                <p>classic coffees is our speciality with each uniquely made.</p>
+                <button type="button">Get Now</button>
+            </div>
+        </div>
+    </body>
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(tino.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;   
+}
+.nav-bar .title{
+    color: #ffffffd5;
+    font-size: 47px;
+    font-weight: 600;
+    cursor: pointer;
+}
+span{
+    color: rgba(220, 20, 60, 0.863);
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90;
+    margin-left: 50;
+    color: #ffffffd2;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li a{
+    text-decoration: none;
+    columns: #ffffffce;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: rgba(220, 20, 60, 0.815);
+    padding: 5px 10px;
+    border: 2px solid #ffffff2a;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 36px;
+    color: #ffffffc4;
+    font-weight: 600;
+}
+.home p{
+    color: aqua;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: #ffffffd0;
+    background: crimson;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 20x solid crimson;
+}
+   </style>
+</html>
